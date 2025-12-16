@@ -1,0 +1,331 @@
+{
+  "flowers": [
+    {
+      "id": "rose1",
+      "name": "15 Троянд",
+      "category": "rose",
+      "size": "50 см",
+      "price": 850,
+      "description": "Класичний букет із 15 ніжних троянд.",
+      "image": "/images/roses/rose1.jpg"
+    },
+    {
+      "id": "rose2",
+      "name": "25 Троянд",
+      "category": "rose",
+      "size": "50 см",
+      "price": 1200,
+      "description": "Букет із 25 свіжих троянд рожевого кольору.",
+      "image": "/images/roses/rose2.jpg"
+    },
+    {
+      "id": "rose3",
+      "name": "Вивернуті Троянди",
+      "category": "rose",
+      "size": "60 см",
+      "price": 1600,
+      "description": "Елегантні вивернуті троянди у стильній упаковці.",
+      "image": "/images/roses/rose3.jpg"
+    },
+    {
+      "id": "rose4",
+      "name": "51 Троянда",
+      "category": "rose",
+      "size": "60 см",
+      "price": 3000,
+      "description": "Розкішний великий букет з 51 троянди.",
+      "image": "/images/roses/rose4.jpg"
+    },
+    {
+      "id": "rose5",
+      "name": "Біло-рожевий букет",
+      "category": "rose",
+      "size": "50 см",
+      "price": 3550,
+      "description": "Мікс білих та рожевих троянд.",
+      "image": "/images/roses/rose5.jpg"
+    },
+    {
+      "id": "rose6",
+      "name": "Білі троянди в коробці",
+      "category": "rose",
+      "size": "S / M / L",
+      "price": 1800,
+      "description": "Білі троянди у стильній коробці.",
+      "image": "/images/roses/rose6.jpg"
+    },
+    {
+      "id": "rose7",
+      "name": "Корзина з літерою",
+      "category": "rose",
+      "size": "L",
+      "price": 3300,
+      "description": "Корзина з трояндами та декоративною літерою.",
+      "image": "/images/roses/rose7.jpg"
+    },
+    {
+      "id": "rose8",
+      "name": "Букет-серце",
+      "category": "rose",
+      "size": "L",
+      "price": 2900,
+      "description": "Романтичний букет у формі серця.",
+      "image": "/images/roses/rose8.jpg"
+    },
+    {
+      "id": "rose9",
+      "name": "Піоновидні троянди",
+      "category": "rose",
+      "size": "50 см",
+      "price": 1900,
+      "description": "Ніжні піоновидні троянди пастельного відтінку.",
+      "image": "/images/roses/rose9.jpg"
+    },
+
+    {
+      "id": "peony1",
+      "name": "Ніжно-рожевий піон",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 350,
+      "description": "Великий ніжно-рожевий піон.",
+      "image": "/images/peonies/peony1.jpg"
+    },
+    {
+      "id": "peony2",
+      "name": "5 Ніжних півоній",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 1750,
+      "description": "Букет з 5 повітряних півоній.",
+      "image": "/images/peonies/peony2.jpg"
+    },
+    {
+      "id": "peony3",
+      "name": "11 Півоній",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 3500,
+      "description": "Розкішна композиція з 11 півоній.",
+      "image": "/images/peonies/peony3.jpg"
+    },
+    {
+      "id": "peony4",
+      "name": "Кораловий піон",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 440,
+      "description": "Яскравий кораловий піон.",
+      "image": "/images/peonies/peony4.jpg"
+    },
+    {
+      "id": "peony5",
+      "name": "5 Коралових півоній",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 2200,
+      "description": "Букет з 5 коралових півоній.",
+      "image": "/images/peonies/peony5.jpg"
+    },
+    {
+      "id": "peony6",
+      "name": "Великий кораловий букет",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 3700,
+      "description": "Великий букет з коралових півоній.",
+      "image": "/images/peonies/peony6.jpg"
+    },
+    {
+      "id": "peony7",
+      "name": "Білий піон",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 380,
+      "description": "Ніжний білий піон.",
+      "image": "/images/peonies/peony7.jpg"
+    },
+    {
+      "id": "peony8",
+      "name": "Весільний букет",
+      "category": "peonies",
+      "size": "M",
+      "price": 3600,
+      "description": "Весільний букет із півоній.",
+      "image": "/images/peonies/peony8.jpg"
+    },
+    {
+      "id": "peony9",
+      "name": "21 Білосніжна піонія",
+      "category": "peonies",
+      "size": "70 см",
+      "price": 4200,
+      "description": "Букет із 21 білої півонії.",
+      "image": "/images/peonies/peony9.jpg"
+    },
+
+    {
+      "id": "tulip1",
+      "name": "3 Тюльпани",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 250,
+      "description": "Мінімалістичний букет із трьох тюльпанів.",
+      "image": "/images/tulips/tulip1.jpg"
+    },
+    {
+      "id": "tulip2",
+      "name": "11 Ніжних тюльпанів",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 950,
+      "description": "Букет з 11 рожевих тюльпанів.",
+      "image": "/images/tulips/tulip2.jpg"
+    },
+    {
+      "id": "tulip3",
+      "name": "Вивернуті тюльпани",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 500,
+      "description": "Стильні вивернуті тюльпани.",
+      "image": "/images/tulips/tulip3.jpg"
+    },
+    {
+      "id": "tulip4",
+      "name": "Тюльпани з гіпсофілою",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 1100,
+      "description": "Тюльпани з гіпсофілою.",
+      "image": "/images/tulips/tulip4.jpg"
+    },
+    {
+      "id": "tulip5",
+      "name": "Тюльпани з ромашками",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 1150,
+      "description": "Тюльпани з ромашками.",
+      "image": "/images/tulips/tulip5.jpg"
+    },
+    {
+      "id": "tulip6",
+      "name": "Тюльпани з евкаліптом",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 1200,
+      "description": "Тюльпани з евкаліптом.",
+      "image": "/images/tulips/tulip6.jpg"
+    },
+    {
+      "id": "tulip7",
+      "name": "Червоні тюльпани",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 2100,
+      "description": "Класичні червоні тюльпани.",
+      "image": "/images/tulips/tulip7.jpg"
+    },
+    {
+      "id": "tulip8",
+      "name": "101 тюльпан",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 4500,
+      "description": "Великий букет з 101 тюльпана.",
+      "image": "/images/tulips/tulip8.jpg"
+    },
+    {
+      "id": "tulip9",
+      "name": "101 піоновидний тюльпан",
+      "category": "tulips",
+      "size": "50 см",
+      "price": 5000,
+      "description": "101 піоновидний тюльпан.",
+      "image": "/images/tulips/tulip9.jpg"
+    },
+
+    {
+      "id": "hyd1",
+      "name": "Рожева гортензія",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 650,
+      "description": "Пишна рожева гортензія.",
+      "image": "/images/hydrangeas/hydrangea1.jpg"
+    },
+    {
+      "id": "hyd2",
+      "name": "Блакитна гортензія",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 600,
+      "description": "Ніжна блакитна гортензія.",
+      "image": "/images/hydrangeas/hydrangea2.jpg"
+    },
+    {
+      "id": "hyd3",
+      "name": "Фіолетова гортензія",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 720,
+      "description": "Фіолетова гортензія.",
+      "image": "/images/hydrangeas/hydrangea3.jpg"
+    },
+    {
+      "id": "hyd4",
+      "name": "5 гортензій",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 3250,
+      "description": "Букет із 5 гортензій.",
+      "image": "/images/hydrangeas/hydrangea4.jpg"
+    },
+    {
+      "id": "hyd5",
+      "name": "Темно-рожеві гортензії",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 3200,
+      "description": "Темно-рожеві гортензії.",
+      "image": "/images/hydrangeas/hydrangea5.jpg"
+    },
+    {
+      "id": "hyd6",
+      "name": "Насичені гортензії",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 3100,
+      "description": "Насичені гортензії.",
+      "image": "/images/hydrangeas/hydrangea6.jpg"
+    },
+    {
+      "id": "hyd7",
+      "name": "3 різні гортензії",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 1300,
+      "description": "Мікс із трьох гортензій.",
+      "image": "/images/hydrangeas/hydrangea7.jpg"
+    },
+    {
+      "id": "hyd8",
+      "name": "Великий мікс",
+      "category": "hydrangeas",
+      "size": "70 см",
+      "price": 4900,
+      "description": "Великий мікс гортензій.",
+      "image": "/images/hydrangeas/hydrangea8.jpg"
+    },
+    {
+      "id": "hyd9",
+      "name": "Ніжна композиція",
+      "category": "hydrangeas",
+      "size": "M",
+      "price": 2800,
+      "description": "Ніжна композиція з гортензій.",
+      "image": "/images/hydrangeas/hydrangea9.jpg"
+    }
+  ]
+}
