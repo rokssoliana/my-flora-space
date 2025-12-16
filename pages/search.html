@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Пошук квітів</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Пошук квітів</h2>
+
+    <form id="searchForm">
+        <label>Назва:</label>
+        <input type="text" id="name">
+
+        <label>Мінімальна ціна:</label>
+        <input type="number" id="min">
+
+        <label>Максимальна ціна:</label>
+        <input type="number" id="max">
+
+        <button type="submit">Пошук</button>
+    </form>
+
+    <div id="results"></div>
+</div>
+
+<script>
+document.getElementById("searchForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const min = document.getElementById("min").value;
+    const max = document.getElementById("max").value;
+
+    const params = new URLSearchParams();
+
+    if (name) params.append("name", name);
+    if (min) params.append("min", min);
+    if (max) params.append("max", max);
+
+    const res = await fetch(`http://localhost:3000/api/search?${params.toString()}`);
+    const data = await res.json();
+
+    const block = document.getElementById("results");
+    block.innerHTML = "";
+
+    if (data.length === 0) {
+        block.innerHTML = "<p>Нічого не знайдено</p>";
+        return;
+    }
+
+    data.forEach(f => {
+        block.innerHTML += `<p>${f.name} — ${f.price} грн</p>`;
+    });
+});
+</script>
+
+</body>
+</html>

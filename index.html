@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>My Flora Space</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="logo">✿ My Flora Space</div>
+
+<nav class="nav">
+    <a href="#home">Головна</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#about">Про нас</a>
+    <a href="#contacts">Контакти</a> <!-- цей пункт і є "Контакти" в меню -->
+</nav>
+</header>
+
+
+<!-- ================= HOME ================= -->
+<section id="home" class="home">
+
+  <div class="home-wrapper">
+
+    <!-- ТЕКСТ -->
+    <div class="home-text">
+      <h1>My Flora Space</h1>
+
+      <p class="subtitle">
+        Світ, де квіти говорять<br>
+        замість слів
+      </p>
+
+      <a href="#catalog" class="btn-main">
+        Підібрати квіти
+      </a>
+    </div>
+
+    <!-- СЛАЙДЕР -->
+    <div class="slider">
+      <div class="slides">
+        <img src="images/slider/slide1.jpg" class="slide active">
+        <img src="images/slider/slide2.jpg" class="slide">
+        <img src="images/slider/slide3.jpg" class="slide">
+        <img src="images/slider/slide4.jpg" class="slide">
+        <img src="images/slider/slide5.jpg" class="slide">
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+</section>
+
+
+<!-- ================= CATALOG ================= -->
+<section id="catalog" class="section">
+    <h2 class="section-title">🌸 Каталог квітів</h2>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Пошук за назвою...">
+    </div>
+   <div class="price-wrapper">
+    <label>
+        Ціна до: <span id="priceValue">5000</span> грн
+    </label>
+    <input
+        type="range"
+        id="priceRange"
+        min="0"
+        max="5000"
+        step="100"
+        value="5000"
+    >
+</div>
+<div class="filters">
+  <button class="active" data-filter="all">Усі</button>
+  <button data-filter="rose">Троянди</button>
+  <button data-filter="peonies">Півонії</button>
+  <button data-filter="tulips">Тюльпани</button>
+  <button data-filter="hydrangeas">Гортензії</button>
+</div>
+
+    <div id="catalogGrid" class="catalog-grid"></div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section about">
+    <h2 class="section-title">Про нас</h2>
+
+    <div class="about-grid">
+        <div class="about-card">
+            <h3>Якість</h3>
+            <p>Тільки свіжі квіти від перевірених постачальників.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>Дизайн</h3>
+            <p>Унікальні букети, які створюють настрій.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>Доставка</h3>
+            <p>Швидка доставка по Львову та області.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>Підтримка</h3>
+            <p>Ми завжди на зв’язку для вашого комфорту.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACTS ================= -->
+<section id="contacts" class="section contact">
+    <h2 class="section-title">Контакти</h2>
+
+    <div class="contact-box">
+        <p><strong>Телефон:</strong> +380 99 123 45 67</p>
+        <p><strong>Email:</strong> myfloraspace@gmail.com</p>
+        <p><strong>Місто:</strong> Львів</p>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2025 My Flora Space</p>
+    </div>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

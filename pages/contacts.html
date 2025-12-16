@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Каталог | My Flora Space</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">✿ My Flora Space</div>
+    <nav class="nav">
+        <a href="/pages/index.html">Головна</a>
+        <a href="/pages/catalog.html" class="active">Каталог</a>
+        <a href="/pages/about.html">Про нас</a>
+        <a href="/pages/contacts.html">Контакти</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Каталог квітів</h1>
+
+    <div class="filters">
+        <button data-filter="all" class="active">Усі</button>
+        <button data-filter="rose">Троянди</button>
+        <button data-filter="peony">Півонії</button>
+        <button data-filter="tulip">Тюльпани</button>
+        <button data-filter="hydrangea">Гортензії</button>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Пошук квітів...">
+    </div>
+
+    <div class="catalog-grid" id="catalogGrid"></div>
+</main>
+
+<script src="/js/script.js"></script>
+</body>
+</html>

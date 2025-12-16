@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Додати квітку</title>
+</head>
+<body>
+
+<h2>Нова квітка</h2>
+
+<form id="addForm">
+    <input id="id" placeholder="ID" required><br>
+    <input id="name" placeholder="Назва" required><br>
+    <input id="price" placeholder="Ціна" required><br>
+    <input id="image" placeholder="Шлях до фото (images/flower.jpg)" required><br>
+    <button>Додати</button>
+</form>
+
+<p id="msg"></p>
+
+<script>
+document.getElementById("addForm").addEventListener("submit", async e => {
+    e.preventDefault();
+
+    const flower = {
+        id: id.value,
+        name: name.value,
+        price: Number(price.value),
+        image: image.value
+    };
+
+    const res = await fetch("http://localhost:3000/api/flowers", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(flower)
+    });
+
+    const data = await res.json();
+    msg.textContent = data.message;
+});
+</script>
+
+</body>
+</html>

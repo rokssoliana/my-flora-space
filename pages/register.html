@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Реєстрація користувача</h2>
+
+    <form id="registerForm">
+        <label>Імʼя:</label>
+        <input type="text" id="name" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <label>Пароль:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Зареєструватися</button>
+    </form>
+
+    <p id="resultMessage" class="result"></p>
+</div>
+
+<script>
+// Відправка даних на сервер
+document.getElementById("registerForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const user = {
+        name: document.getElementById("name").value.trim(),
+        email: document.getElementById("email").value.trim(),
+        password: document.getElementById("password").value.trim()
+    };
+
+    const res = await fetch("http://localhost:3000/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(user)
+    });
+
+    const data = await res.json();
+
+    const msg = document.getElementById("resultMessage");
+
+    if (res.ok) {
+        msg.style.color = "green";
+        msg.textContent = data.message;
+    } else {
+        msg.style.color = "red";
+        msg.textContent = data.message;
+    }
+});
+</script>
+
+</body>
+</html>

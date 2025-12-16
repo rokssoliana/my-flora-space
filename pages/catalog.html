@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог квітів</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌸 Каталог квітів</h1>
+        <nav>
+            <a href="../index.html">Головна</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="contacts.html">Контакти</a>
+        </nav>
+    </header>
+<div class="price-filter">
+    <label>Ціна:</label>
+    <div class="range-slider">
+        <input type="range" id="minPriceRange" min="0" max="5000" value="0" step="100">
+        <input type="range" id="maxPriceRange" min="0" max="5000" value="5000" step="100">
+    </div>
+    <div class="price-values">
+        <span id="minPriceValue">0</span> грн - 
+        <span id="maxPriceValue">5000</span> грн
+    </div>
+</div>
+<section class="catalog-section">
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Пошук за назвою...">
+    </div>
+
+    <div class="filters">
+        <button data-filter="all" class="active">Усі</button>
+        <button data-filter="rose">Троянди</button>
+        <button data-filter="peony">Півонії</button>
+        <button data-filter="tulip">Тюльпани</button>
+        <button data-filter="hydrangea">Гортензії</button>
+    </div>
+
+    <div class="catalog-grid" id="catalogGrid"></div>
+</section>
+
+    <footer>
+        <p>© 2025 MyFloraSpace</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
